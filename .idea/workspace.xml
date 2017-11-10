@@ -2,65 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20806b9f-1876-4630-96a1-0d3c73d0790c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/images/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/images/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/images/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/images/a1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/images/a2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/images/arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/images/bsologo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/images/buhari1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/images/f2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/images/f3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/images/f4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/images/img-sp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/images/mg1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/images/mg2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/images/mg3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/images/mg4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/images/mg6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/images/mg7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/images/move-top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/images/p1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/images/p2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/images/p33.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/images/pic.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/images/pic1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/images/pic2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/images/tech.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/css/bootstrap-3.1.1.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/css/flexslider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/css/owl.carousel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/js/bootstrap-3.1.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/js/easing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/js/jquery.flexisel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/js/move-top.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/js/owl.carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/bso/js/responsiveslides.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/bso/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/bso/contact.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/bso/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/bso/leadership.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/bso/single.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/bso/typography.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/atiku/static/bso/images/buhari1.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/atiku/admin.py" afterPath="$PROJECT_DIR$/atiku/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/atiku/models.py" afterPath="$PROJECT_DIR$/atiku/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/atiku/view/generatestate.py" afterPath="$PROJECT_DIR$/atiku/view/generatestate.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/atiku/view/localgovanalysis.py" afterPath="$PROJECT_DIR$/atiku/view/localgovanalysis.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/atiku/view/visualize.py" afterPath="$PROJECT_DIR$/atiku/view/visualize.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/atiku/views.py" afterPath="$PROJECT_DIR$/atiku/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/atikucare/settings.py" afterPath="$PROJECT_DIR$/atikucare/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/atikucare/urls.py" afterPath="$PROJECT_DIR$/atikucare/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codes.py" afterPath="$PROJECT_DIR$/codes.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -142,42 +86,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/atiku/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="generatestate.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/atiku/view/generatestate.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="visualize.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/atiku/view/visualize.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index_inner_inner.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index_inner_inner.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -233,8 +141,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/atiku/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1225">
-              <caret line="54" column="37" lean-forward="false" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
+            <state relative-caret-position="120">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -418,6 +326,72 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="buharisupport" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="buharisupport" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atiku" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="buharisupport" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="buharisupport" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atiku" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bso" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="buharisupport" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="buharisupport" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atiku" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bso" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -671,7 +645,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -680,8 +654,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35188216" sideWeight="0.4389313" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24222586" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44517186" sideWeight="0.42366412" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43698853" sideWeight="0.6274809" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23071104" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43698853" sideWeight="0.6274809" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23071104" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2167939" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -729,12 +703,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="dbDummy://dbtable:/93874459/d94234c7-a37f-403b-88ab-38cb1ad88946/main.auth_group_permissions" />
     <entry file="dbDummy://dbtable:/93874459/d94234c7-a37f-403b-88ab-38cb1ad88946/main.django_admin_log" />
     <entry file="dbDummy://dbtable:/93874459/d94234c7-a37f-403b-88ab-38cb1ad88946/main.django_session" />
     <entry file="dbDummy://dbtable:/93874459/d94234c7-a37f-403b-88ab-38cb1ad88946/main.sqlite_sequence" />
@@ -759,13 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1039,10 +1005,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atiku/static/bso/images/buhari1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/atiku/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1225">
-          <caret line="54" column="37" lean-forward="false" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
+        <state relative-caret-position="120">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>

@@ -1,9 +1,6 @@
 from crispy_forms.helper import FormHelper
 from django import forms
-from django.core.urlresolvers import reverse_lazy
-from django.http.response import HttpResponse
 from django.shortcuts import render
-
 from atiku.models import Members, STATE_CHOICE
 
 
