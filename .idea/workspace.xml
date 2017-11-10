@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20806b9f-1876-4630-96a1-0d3c73d0790c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/atiku/static/bso/images/buhari1.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/atiku/views.py" afterPath="$PROJECT_DIR$/atiku/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/home v3.html" afterPath="$PROJECT_DIR$/templates/home v3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/localgovernments.html" afterPath="$PROJECT_DIR$/templates/localgovernments.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -118,21 +117,67 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="visualize.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/atiku/view/visualize.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home v3.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/home v3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="352" column="61" lean-forward="false" selection-start-line="352" selection-start-column="61" selection-end-line="352" selection-end-column="61" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="localgovanalysis.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/atiku/view/localgovanalysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+            <state relative-caret-position="264">
+              <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="codes.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codes.py">
+      <file leaf-file-name="localgovernments.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/localgovernments.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="322">
+              <caret line="450" column="0" lean-forward="true" selection-start-line="450" selection-start-column="0" selection-end-line="450" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generatestate.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/atiku/view/generatestate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generate.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/generate.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -141,8 +186,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/atiku/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="267">
+              <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -162,7 +207,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>freee</find>
       <find>layout</find>
       <find>email</find>
       <find>form.cleaned_data</find>
@@ -192,6 +236,7 @@
       <find>more than</find>
       <find>contact</find>
       <find>ApplicantInfo</find>
+      <find>local</find>
     </findStrings>
     <replaceStrings>
       <replace>request.POST.get</replace>
@@ -226,8 +271,6 @@
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/atiku/templatetags/listloop.py" />
         <option value="$PROJECT_DIR$/atiku/templatetags/list_loop.py" />
-        <option value="$PROJECT_DIR$/templates/home v3.html" />
-        <option value="$PROJECT_DIR$/templates/localgovernments.html" />
         <option value="$PROJECT_DIR$/atikucare/urls.py" />
         <option value="$PROJECT_DIR$/atikucare/settings.py" />
         <option value="$PROJECT_DIR$/templates/bso/index.html" />
@@ -239,6 +282,8 @@
         <option value="$PROJECT_DIR$/atiku/view/localgovanalysis.py" />
         <option value="$PROJECT_DIR$/atiku/view/visualize.py" />
         <option value="$PROJECT_DIR$/atiku/views.py" />
+        <option value="$PROJECT_DIR$/templates/localgovernments.html" />
+        <option value="$PROJECT_DIR$/templates/home v3.html" />
       </list>
     </option>
   </component>
@@ -326,72 +371,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="buharisupport" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="buharisupport" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="atiku" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="buharisupport" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="buharisupport" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="atiku" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bso" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="buharisupport" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="buharisupport" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="atiku" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bso" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -645,7 +624,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -654,8 +634,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35188216" sideWeight="0.4389313" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24222586" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44517186" sideWeight="0.42366412" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43698853" sideWeight="0.6274809" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23071104" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28150573" sideWeight="0.6274809" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23071104" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2167939" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -757,13 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/generate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/atiku/templatetags/list_loop.py" />
     <entry file="file://$PROJECT_DIR$/atiku/templatetags/utility_tags.py" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f9ca1cfc-d41e-442e-a643-fb0486da97b7/console.sql">
@@ -787,13 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/localgovernments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6120">
-          <caret line="255" column="96" lean-forward="false" selection-start-line="255" selection-start-column="96" selection-end-line="255" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/atikucare/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -805,13 +771,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home v3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="285" column="26" lean-forward="false" selection-start-line="285" selection-start-column="26" selection-end-line="285" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -977,34 +936,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/atiku/view/generatestate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atiku/view/localgovanalysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atiku/view/visualize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1018,10 +949,64 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/atiku/view/localgovanalysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/localgovernments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="450" column="0" lean-forward="true" selection-start-line="450" selection-start-column="0" selection-end-line="450" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atiku/view/generatestate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/generate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atiku/view/visualize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home v3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="352" column="61" lean-forward="false" selection-start-line="352" selection-start-column="61" selection-end-line="352" selection-end-column="61" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/atiku/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="267">
+          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
