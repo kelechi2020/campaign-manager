@@ -4,7 +4,7 @@ from django.core.urlresolvers import reverse_lazy
 from django.http.response import HttpResponse
 from django.shortcuts import render
 
-from atiku.models import ApplicantInfo, STATE_CHOICE
+from atiku.models import Members, STATE_CHOICE
 
 
 class Form_applicant(forms.ModelForm):
@@ -21,7 +21,7 @@ class Form_applicant(forms.ModelForm):
     communication_means2 = forms.BooleanField(label='Second Means Of Communication')
     communication_means1 = forms.BooleanField(label='Ist Means Of Communication', required=True)
     class Meta:
-        model = ApplicantInfo
+        model = Members
         fields = ['first_name','last_name','mothers_maiden_name','address','state','local_government',
                   'district','landmark_identity','phone_number','email','communication_means1','communication_means2']
 
@@ -52,7 +52,7 @@ def page(request):
         communication_means1 = request.POST.get('communication_means1')
         communication_means2 = request.POST.get('communication_means2')
 
-        new_applicant = ApplicantInfo(first_name=first_name, last_name=last_name,
+        new_applicant = Members(first_name=first_name, last_name=last_name,
                                       mothers_maiden_name=mothers_maiden_name,
                                       address=address, state=states, local_government=local_government,
                                       district=district, landmark_identity=landmark_identity,
@@ -64,5 +64,5 @@ def page(request):
         success = 1
         return render(request, 'index_inner.html', {'success': success})
     else:
-        return render(request, 'index.html')
+        return render(request, 'bso/index.html')
 

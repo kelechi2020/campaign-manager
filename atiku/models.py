@@ -33,7 +33,7 @@ class State(models.Model):
     def __str__(self):
         return u'%s' % self.name
 
-class ApplicantInfo (models.Model):
+class Members (models.Model):
     first_name = models.CharField(verbose_name='First Name', max_length=40)
     last_name = models.CharField(verbose_name='Surname', max_length=40)
     mothers_maiden_name = models.CharField(verbose_name='Mothers Maiden Name', blank=True, max_length=40)

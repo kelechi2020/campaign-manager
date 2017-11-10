@@ -36,7 +36,7 @@ a =["FCT", ["Gwagwalada", "Kuje", "Abaji","Abuja Municipal","Bwari","Kwali", "Ot
     ['ZAMFARA' ,["Bakura","Birnin Magaji Kiyaw","Bukkuyum","Bungudu","Gummi","Gusau","Kaura Namoda","Maradun","Maru","Shinkafi","Talata Mafara","Tsafe","Zurmi"]
 
 ]
-import collections
+
 s = collections.OrderedDict(a)
 for ny , ret in s.items():
     print(ny)
