@@ -46,7 +46,6 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'import_export',
     'crispy_forms',
-
     'buharisupport'
 )
 CRISPY_TEMPLATE_PACK = 'bootstrap3'
