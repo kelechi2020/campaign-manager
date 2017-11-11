@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-from atiku.models import LocalGovernment, Members
+from buharisupport.models import LocalGovernment, Members
 
 
 def page(request, state):

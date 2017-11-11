@@ -1,7 +1,7 @@
 from django.contrib import admin
 from import_export.admin import ImportExportModelAdmin
 
-from atiku.models import Members, State, LocalGovernment
+from buharisupport.models import Members, State, LocalGovernment
 
 
 admin.site.site_header = 'Buhari Support Organization Data Management system'

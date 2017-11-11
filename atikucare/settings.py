@@ -19,7 +19,7 @@ PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..
 
 
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'atiku/static'),
+    os.path.join(BASE_DIR, 'buharisupport/static'),
 )
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
@@ -47,7 +47,7 @@ INSTALLED_APPS = (
     'import_export',
     'crispy_forms',
 
-    'atiku'
+    'buharisupport'
 )
 CRISPY_TEMPLATE_PACK = 'bootstrap3'
 MIDDLEWARE_CLASSES = (

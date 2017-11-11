@@ -8,7 +8,7 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('atiku', '0001_initial'),
+        ('buharisupport', '0001_initial'),
     ]
 
     operations = [

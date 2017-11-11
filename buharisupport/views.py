@@ -1,7 +1,7 @@
 from crispy_forms.helper import FormHelper
 from django import forms
 from django.shortcuts import render
-from atiku.models import Members, STATE_CHOICE
+from buharisupport.models import Members, STATE_CHOICE
 
 
 class Form_applicant(forms.ModelForm):

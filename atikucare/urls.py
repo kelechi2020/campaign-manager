@@ -1,8 +1,8 @@
 from django.conf.urls import include, url
 from django.contrib import admin
 
-from atiku.view import generatestate,getdetails,localgovanalysis,visualize
-from atiku import views
+from buharisupport.view import generatestate,getdetails,localgovanalysis,visualize
+from buharisupport import views
 urlpatterns = [
     # Examples:
     # url(r'^$', 'atikucare.views.home', name='home'),

@@ -4,7 +4,7 @@ import mimetypes
 from django.core.serializers import json
 from django.http.response import HttpResponse, JsonResponse
 
-from atiku.models import State
+from buharisupport.models import State
 
 
 def getdetails (request):

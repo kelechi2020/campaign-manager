@@ -46,6 +46,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='localgovernment',
             name='country',
-            field=models.ForeignKey(to='atiku.State'),
+            field=models.ForeignKey(to='buharisupport.State'),
         ),
     ]
