@@ -9,14 +9,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Atiku Care Foundation</title>
+<title>Buhari Support Organisation</title>
 <!-- custom-theme -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Atiku Cares Foundation" />
+<meta name="keywords" content="Buhari Support Organisations" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //custom-theme -->
+{#      <link rel="stylesheet" href="{% static 'material/css/bootstrap.min.css' %}}" type="text/css"  />#}
 <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet" type="text/css" media="all" />
 <link href="{% static 'css/style.css' %}" rel="stylesheet" type="text/css" media="all" />
 <!-- js -->
@@ -26,6 +27,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
     <!-- gallery -->
 <link rel="stylesheet" href="{% static 'css/lightGallery.css' %}" type="text/css" media="all" />
+
+
 <!-- //gallery -->
 <!-- font-awesome-icons -->
 <link href="{% static 'css/font-awesome.css' %}" rel="stylesheet">
@@ -39,21 +42,48 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     				 var optionSelected = $(this).find("option:selected");
     				 var valueSelected  = optionSelected.val();
      				 var country_name   = optionSelected.text();
-
-
      				 data = {'cnt' : country_name };
-       				 ajax({% url 'states' %},data,function(result){
 
-
-       					 	console.log(result);
-       					 	$("#inputstate option").remove();
-       					 	for (var i = result.length - 1; i >= 0; i--) {
-       					 		$("#inputstate").append('<option>'+ result[i].name +'</option>');
-       					 	};
-
-
+     				 ajax({% url 'states' %},data,function(result){
+       				     console.log(result);
+                        $("#inputstate option").remove();
+                        for (var i = result.length - 1; i >= 0; i--) {
+                            $("#inputstate").append('<option>'+ result[i].name +'</option>');
+                            };
        					 });
- 				 });
+
+				 });
+				  $('select#inputstate').change(function () {
+    				 var optionSelected = $(this).find("option:selected");
+    				 var valueSelected  = optionSelected.val();
+     				 var country_name   = optionSelected.text();
+     				 data = {'cnt' : country_name };
+
+     				 ajax({% url 'wards' %},data,function(result){
+       				     console.log(result);
+                        $("#ward option").remove();
+                        for (var i = result.length - 1; i >= 0; i--) {
+                            $("#ward").append('<option>'+ result[i].name +'</option>');
+                            };
+       					 });
+
+				 });
+
+				   $('select#ward').change(function () {
+    				 var optionSelected = $(this).find("option:selected");
+    				 var valueSelected  = optionSelected.val();
+     				 var country_name   = optionSelected.text();
+     				 data = {'cnt' : country_name };
+
+     				 ajax({% url 'pooling_unit' %},data,function(result){
+       				     console.log(result);
+                        $("#pooling option").remove();
+                        for (var i = result.length - 1; i >= 0; i--) {
+                            $("#pooling").append('<option>'+ result[i].name +'</option>');
+                            };
+       					 });
+
+				 });
 			});
 		</script>
 </head>
@@ -77,15 +107,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div id="sideNav">
 						<ul>
 							<li><a href="index.html" class="w3_home"><span>Home</span></a></li>
-							<li><a href="#about" class="scroll w3_about"><span>Apply</span></a></li>
+							<li><a href="#about" class="scroll w3_about"><span>Join BSO</span></a></li>
 							<li><a href="#events" class="scroll w3_events"><span>Events</span></a></li>
-							<li><a href="#mail" class="scroll w3_mail"><span>Mail</span></a></li>
+							<li><a href="#mail" class="scroll w3_mail"><span>Contact Us</span></a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
 			<div class="agileinfo_banner_info">
-				<h3><span>We Rise By </span> Touching Lives</h3>
+				<h3><span>Pres. Muhammadu Buhari </span>Together We Can Make It Happen</h3>
 			</div>
 
 		</div>
@@ -94,8 +124,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- events -->
 	<div class="events" id="events">
 		<div class="container">
-			<h3 class="agileinfo_header w3layouts_header">Our Latest <span>Outreach</span></h3>
-			<p class="w3_services_para"><span>Atiku Cares</span></p>
+			<h3 class="agileinfo_header w3layouts_header"><span>Buhari Support Organisations</span></h3>
+			<p class="w3_services_para"><span>Latest Events</span></p>
 			<div class="w3_agile_services_grids">
 				<div class="col-md-6 w3_agileits_events_grid">
 					<div class="wthree_events_grid">
@@ -107,7 +137,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 						<div class="agileinfo_events_grid1">
 							<h5><a href="#" data-toggle="modal" data-target="#myModal">ICT Mass Literacy Comissioning</a></h5>
-							<p>Witness The Grand Opening Of Atiku Cares ICT Traning Centers</p>
+							<p>Witness The Grand Opening Of  ICT Traning Centers</p>
 						</div>
 					</div>
 				</div>
@@ -129,19 +159,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="clearfix"> </div>
 			</div>
-		</div>
-	</div>
+
 <!-- //events -->
 
 
 <!-- banner-bottom -->
 
-
 <div class="banner-bottom" id="about">
-	<div class="container">
-		<fieldset>
-	<legend>Register To Particapate For Atiku Care Foundation Programme</legend>
 
+	<div class="container">
+        <legend>Join Buhari Support Organisation </legend><br>
+
+
+<div class="card-body">
 
 <form method="post" action="">
         {% csrf_token %}
@@ -244,6 +274,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<input type="text" name="district" class="form-control" id="inputDistrict" placeholder="District">
 			</div>
 
+				<div class="form-group col-md-6" >
+					<label for="ward" class="col-form-label">Select Ward</label>
+					<select name="local_government" id="ward" class="form-control">Choose</select>
+				</div>
+
+	</div>
+
+    <div class="form-row">
+				<div class="form-group col-md-6" >
+					<label for="pooling" class="col-form-label">Select Polling Unit</label>
+					<select name="local_government" id="pooling" class="form-control">Choose</select>
+				</div>
+
 			<div class="form-group col-md-6">
 				<label for="inputLandmark" class="col-form-label">Landmark Identity</label>
 				<input type="text" name="landmark_identity" class="form-control" id="inputLandmark" placeholder="Major Landmark">
@@ -274,11 +317,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </div>
 <button type="submit" class="btn btn-primary">Submit Application</button>
 </form>
-</fieldset>
+    </div>
         {% block alert %}
-
+            </div>
         {% endblock %}
-
+</div>
+</div>
 
 <!-- //banner-bottom -->
 <!-- carousal-plugin -->
@@ -368,6 +412,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 	</div>
 
+<div class="clearfix"></div>
 <!-- //mail -->
 <!-- footer -->
 	<div class="footer">
@@ -403,7 +448,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<li><a href="#mail" class="scroll">Mail Us</a></li>
 			</ul>
 			<div class="copy-right">
-				<p>© 2017 Atiku Cares Foundation. All rights reserved | Design by <a href="#">Garbaba Technologies</a></p>
+				<p>© 2017 Buhari Support Organisation. All rights reserved </p>
 			</div>
 		</div>
 	</div>

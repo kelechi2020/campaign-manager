@@ -12,5 +12,7 @@ urlpatterns = [
     url(r'^visualize/', visualize.page , name='visualize'),
     url(r'^index', views.page, name='home'),
     url(r'^getdetails/', getdetails.getdetails, name='states'),
+    url(r'^getward/', getdetails.get_ward, name='wards'),
+    url(r'^getpoolingunit/', getdetails.get_pooling_unit, name='pooling_unit'),
     url(r"^localgov/(?P<state>[^/]+)$", localgovanalysis.page, name='local'),
 ]
