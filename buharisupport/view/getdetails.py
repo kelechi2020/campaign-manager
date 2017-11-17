@@ -39,9 +39,9 @@ def get_ward(request):
 
     all_ward = selected_localgov.ward_set.all()
     for ward in all_ward:
-        print("city name", ward.name)
+        print("city name", ward.ward_name)
 
-        result_set.append({'name': ward.name})
+        result_set.append({'name': ward.ward_name})
 
     return JsonResponse(result_set, safe=False)
 
@@ -56,13 +56,13 @@ def get_pooling_unit(request):
     all_lga = []
 
     answer = str(country_name[1:-1])
-    selected_pooling_unit = Ward.objects.get(name=country_name)
+    selected_pooling_unit = Ward.objects.get(ward_name=country_name)
     print("selected state name ", selected_pooling_unit)
 
     all_pooling_unit = selected_pooling_unit.poolingunit_set.all()
     for pooling_unit in all_pooling_unit:
-        print("city name", pooling_unit.name)
+        print("city name", pooling_unit.poolingunit_name)
 
-        result_set.append({'name': pooling_unit.name})
+        result_set.append({'name': pooling_unit.poolingunit_name})
 
     return JsonResponse(result_set, safe=False)

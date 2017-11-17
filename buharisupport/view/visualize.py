@@ -12,4 +12,4 @@ def page(request):
     pprint(type(states))
     pprint(applicant_number)
 
-    return render(request, 'home v3.html', {'stateauto':stateauto})
+    return render(request, 'statesummary.html', {'stateauto':stateauto})

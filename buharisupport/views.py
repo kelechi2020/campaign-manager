@@ -46,6 +46,8 @@ def page(request):
         phone_number = request.POST.get('phone_number')
         email = request.POST.get('email')
         sex = request.POST.get('sex')
+        ward = request.POST.get('ward')
+        pooling_unit = request.POST.get('pooling_unit')
         communication_means1 = request.POST.get('communication_means1')
         communication_means2 = request.POST.get('communication_means2')
 
@@ -55,11 +57,13 @@ def page(request):
                                       district=district, landmark_identity=landmark_identity,
                                       phone_number=phone_number, email=email, sex=sex,
                                       communication_means2=communication_means2,
-                                      communication_means1=communication_means1)
+                                      communication_means1=communication_means1,
+                                        ward=ward,pooling_unit=pooling_unit
+                                )
 
         new_applicant.save()
         success = 1
         return render(request, 'index_inner.html', {'success': success})
     else:
-        return render(request, 'bso/index.html')
+        return render(request, 'index.html')
 

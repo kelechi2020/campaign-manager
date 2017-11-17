@@ -1,8 +1,9 @@
 from django.conf.urls import include, url
 from django.contrib import admin
-
-from buharisupport.view import generatestate,getdetails,localgovanalysis,visualize
 from buharisupport import views
+from buharisupport.view import getdetails, localgovanalysis, visualize
+from buharisupport.view.jsonviews import allmembersdatatable
+
 urlpatterns = [
     # Examples:
     # url(r'^$', 'atikucare.views.home', name='home'),
@@ -15,4 +16,7 @@ urlpatterns = [
     url(r'^getward/', getdetails.get_ward, name='wards'),
     url(r'^getpoolingunit/', getdetails.get_pooling_unit, name='pooling_unit'),
     url(r"^localgov/(?P<state>[^/]+)$", localgovanalysis.page, name='local'),
+    url(r'^members$', allmembersdatatable.peopleajax, name='table'),
+    url(r'^members/view$', allmembersdatatable.peopleview, name='members'),
+
 ]

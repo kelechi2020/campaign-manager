@@ -11,4 +11,4 @@ def page(request, state):
     new = zip(localgov,applicant_number)
     from pprint import pprint
     pprint(new)
-    return render(request, 'localgovernments.html',{'new':new} )
+    return render(request, 'localgovernments.html',{'new':new, 'state':state} )

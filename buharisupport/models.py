@@ -17,6 +17,8 @@ SEX_CHOICE = (
         ('MALE', "MALE"),
         ('FEMALE', "FEMALE"),
     )
+
+
 class State(models.Model):
     name = models.CharField(max_length=300)
 
@@ -31,13 +33,16 @@ class LocalGovernment(models.Model):
     def __str__(self):
         return u'%s' % self.name
 
+
 class Ward(models.Model):
     ward_name = models.CharField(max_length=200, blank=True)
     local_government = models.ForeignKey("LocalGovernment")
 
+
 class PoolingUnit(models.Model):
     poolingunit_name = models.CharField(max_length=200, blank=True )
     ward = models.ForeignKey("Ward")
+
 
 class Members (models.Model):
     first_name = models.CharField(verbose_name='First Name', max_length=40)
@@ -47,16 +52,14 @@ class Members (models.Model):
     state = models.CharField(verbose_name='State', max_length=100, choices=STATE_CHOICE)
     local_government = models.CharField(verbose_name='Local Government', max_length=70)
     ward = models.CharField(verbose_name='Members ward', max_length=70)
-    ward = models.CharField(verbose_name='Members ward', max_length=255)
+    pooling_unit = models.CharField(verbose_name='Pooling Unit', max_length=255, blank=True)
     sex = models.CharField(verbose_name="Sex",max_length=10, choices=SEX_CHOICE)
     district = models.CharField(verbose_name='District', blank=True, max_length=600)
-    landmark_identity = models.CharField(verbose_name='Landmark', max_length=400, blank=True)
+    landmark_identity = models.CharField(verbose_name='Landmark', max_length=400, blank=True,null=True)
     phone_number = models.CharField(verbose_name='Phone Number', max_length=30)
     email = models.EmailField(verbose_name='E-mail', max_length=100)
     communication_means1 = models.NullBooleanField(verbose_name='Ist Means Of Communication')
     communication_means2 = models.NullBooleanField(verbose_name='Second Means Of Communication')
-
-
 
     def __str__(self):
         return self.first_name + ' ' + self.last_name + '  ' + '-- ' + self.state + '  ' + 'State,' + '  ' + self.local_government + ' ' +'Local Government'

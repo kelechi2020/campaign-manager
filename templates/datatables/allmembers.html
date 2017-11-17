@@ -1,0 +1,80 @@
+{% extends 'basetemplates/baseadmin.html' %}
+{% load staticfiles %}
+<!doctype html>
+<html>
+    <head>
+{% block datatablescripts %}
+
+        <link rel="stylesheet" href="{% static 'datatable/DataTables-1.10.16/css/dataTables.bootstrap.css' %}">
+        <script type="text/javascript" src="{% static 'datatable/jQuery-3.2.1/jquery-3.2.1.min.js' %}"></script>
+        <link rel="stylesheet" type="text/css" href="{% static 'datatable/DataTables-1.10.16/css/jquery.dataTables.css' %}"/>
+        <script type="text/javascript" src="{% static 'datatable/DataTables-1.10.16/js/jquery.dataTables.js' %}"></script>
+        <script type="text/javascript" src="{% static 'datatable/DataTables-1.10.16/js/dataTables.bootstrap.js' %}"></script>
+        <script type="text/javascript" src="{% static 'datatable/datatables.min.css' %}"></script>
+    <script type="text/javascript" src="{% static 'datatable/datatables.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'datatable/Responsive-2.2.0/js/dataTables.responsive.js' %}"></script>
+        <script type="text/javascript" src="{% static 'datatable/Responsive-2.2.0/css/responsive.dataTables.css' %}"></script>
+
+{% endblock %}
+        {% block datatable %}
+ <script>
+
+         $(document).ready( function () {
+        $('#table_id').DataTable({
+            responsive:true,
+            ajax:{
+                url:'/members',
+                dataSrc: 'data'
+
+            },
+            columns: [
+
+                { data: 'first_name' },
+                { data: 'last_name' },
+                { data: 'phone_number' },
+                {data: 'state'},
+                {data: 'local_government'},
+                {data: 'ward'},
+                {data: 'pooling_unit'},
+                {data: 'email'},
+            ]
+
+
+        });
+
+         } );
+    </script>
+
+        {% endblock %}
+        <title>List of persons</title>
+    </head>
+
+    <body>
+    {% block content %}
+<main class="">
+    <table id="table_id" class="display responsive no-wrap">
+    <thead>
+        <tr>
+
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Phone Number</th>
+            <th>State</th>
+            <th>Local Government</th>
+            <th>Ward</th>
+            <th>Pooling Unit</th>
+            <th>E-mail</th>
+
+
+
+        </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+</table>
+
+
+</main>
+    {% endblock %}
+</html>
