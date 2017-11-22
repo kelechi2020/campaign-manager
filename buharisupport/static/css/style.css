@@ -40,6 +40,7 @@ input[type="submit"],input[type="reset"],a{
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-ms-background-size:cover;
+	box-shadow: inset -5px -10em 9em 14px #777;
 	min-height:770px;
 }
 .w3_agile_header{
@@ -282,11 +283,12 @@ input[type="submit"],input[type="reset"],a{
 .agileinfo_banner_info{
 	    margin: 23em auto 12em;
 	width:60%;
+
 }
 .agileinfo_banner_info h3{
 	font-size: 5em;
-    color: #262626;
-    font-family: 'Open Sans', sans-serif;
+    color: #6a1616;
+    font-family: 'monospace';
     font-weight: bold;
     text-transform: uppercase;
 }
