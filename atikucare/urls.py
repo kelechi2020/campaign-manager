@@ -1,7 +1,7 @@
 from django.conf.urls import include, url
 from django.contrib import admin
 from buharisupport import views
-from buharisupport.view import getdetails, localgovanalysis, visualize
+from buharisupport.view import getdetails, localgovanalysis, visualize, pooling_unit_analysis,ward_analysis
 from buharisupport.view.jsonviews import allmembersdatatable
 
 urlpatterns = [
@@ -18,5 +18,7 @@ urlpatterns = [
     url(r"^localgov/(?P<state>[^/]+)$", localgovanalysis.page, name='local'),
     url(r'^members$', allmembersdatatable.peopleajax, name='table'),
     url(r'^members/view$', allmembersdatatable.peopleview, name='members'),
+    url(r"^ward_analysis/(?P<localgov>[^/]+)$", ward_analysis.page, name='ward_analysis'),
+    url(r"^pooling_unit_analysis/(?P<ward>[^/]+)$", pooling_unit_analysis.page, name='pooling_unit_analysis'),
 
 ]

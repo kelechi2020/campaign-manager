@@ -9,7 +9,7 @@
         <div class="container-fluid">
 
             <!--Section heading-->
-            <h4 class="text-left font-weight-bold">Members Summary By Local Government in {{ state }} State</h4>
+            <h4 class="text-left font-weight-bold">Members Summary By Ward in {{ state }} Local Government</h4>
             <hr>
             <br>
 
@@ -30,7 +30,7 @@
                             <div class="admin-up">
                                 <i class="fa fa-money blue darken-3"></i>
                                 <div class="data">
-                                    <p class=" font-weight-bold"><a href="{% url 'ward_analysis' localgov=any %}">{{ any }}</a></p>
+                                    <p class=" font-weight-bold"><a href="{% url 'pooling_unit_analysis' ward=any.ward_name %}">{{ any.ward_name }}</a> </p>
                                     <h3>{{ all }}</h4>
                                 </div>
                             </div>
