@@ -30,9 +30,9 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 SECRET_KEY = 'o8bww6o8g+(6(pyec2rce(op4(by2=p#9tunyxs&75wf3!yx6s'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','buharisupport.herokuapp.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
