@@ -1,8 +1,6 @@
 {% extends 'basetemplates/baseadmin.html' %}
 <!DOCTYPE html>
 {% load static %}
-
-
 {% block content %}
     <!--Main layout-->
     <main class="">
@@ -22,6 +20,7 @@
                 <div class="row ">
                             {%  for any, all in new %}
                     <!--First column-->
+
                     <div class="col-md-4 mb-3 ms-2 view  hm-blue-strong hoverable">
                         <!--Card-->
                         <div class="card card-cascade cascading-admin-card">
@@ -31,7 +30,7 @@
                                 <i class="fa fa-money blue darken-3"></i>
                                 <div class="data">
                                     <p class=" font-weight-bold">{{ any.poolingunit_name }}</p>
-                                    <h3>{{ all }}</h4>
+                                    <h4>{{ all }}</h4>
                                 </div>
                             </div>
                             <!--/.Card Data-->
@@ -46,7 +45,9 @@
                             </div>
                             <!--/.Card content-->
                         </div>
+
                     </div>
+                                </a>
                         <!--/.Card-->
                     <!--/First column-->
                             {% endfor %}

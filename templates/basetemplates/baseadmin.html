@@ -249,8 +249,9 @@
 
             <!-- Breadcrumb-->
             <ol class="breadcrumb hidden-lg-down">
-                <li class="breadcrumb-item active"><a href="#">Buhri Support Organisation</a></li>
-                <li class="breadcrumb-item active">Data Analytics System</li>
+                <li class="breadcrumb-item active"><a href="{% url 'index' %}">Buhari Support Organisation</a></li>
+                <li class="breadcrumb-item active">{% block state %}{% endblock %}/{% block local %}{% endblock %}/{% block ward %}{% endblock %}/{% block polling %}{% endblock %}
+                </li>
             </ol>
 
             <!--Navbar links-->

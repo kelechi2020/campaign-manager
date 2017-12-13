@@ -6,7 +6,7 @@
                 <div class="row ">
                     {% for state in states %}
                     <!--First column-->
-                    <div class="col-md-4 mb-3 ms-2 view  hm-blue-strong hoverable">
+                    <div class="col-md-4 mb-3 ms-2 view  hm-blue-strong hoverable" id="state">
                         <!--Card-->
                         <div class="card card-cascade cascading-admin-card">
 
@@ -15,7 +15,7 @@
                                 <i class="fa fa-money blue darken-3"></i>
                                 <div class="data">
                                     <p class=" font-weight-bold"> {{ state.name }}</p>
-                                    <h3>{{ applicant_number.0 }}</h4>
+                                    <h4>{{ applicant_number.0 }}</h4>
                                 </div>
                             </div>
                             <!--/.Card Data-->

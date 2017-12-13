@@ -1,8 +1,9 @@
 {% extends 'basetemplates/baseadmin.html' %}
 {% load staticfiles %}
+{% block state %}<a href="{% url 'visualize' %}">State</a>{% endblock %}
 {% block content %}
-
 <main class="">
+
         <div class="container-fluid">
 
             <!--Section heading-->
@@ -19,16 +20,18 @@
                 <div class="row ">
                         {% for state , number in stateauto %}
                     <!--First column-->
+
                     <div class="col-md-4 mb-3 ms-2 view  hm-blue-strong hoverable">
                         <!--Card-->
+                        <a href="{% url 'local' state=state %}">
                         <div class="card card-cascade cascading-admin-card">
 
                             <!--Card Data-->
                             <div class="admin-up">
                                 <i class="fa fa-money blue darken-3"></i>
                                 <div class="data">
-                                    <p class=" font-weight-bold"><a href="{% url 'local' state=state %}">{{ state }}</a></p>
-                                    <h3>{{ number }}</h4>
+                                    <p class=" font-weight-bold">{{ state }}</p>
+                                    <h3>{{ number }}</h3>
                                 </div>
                             </div>
                             <!--/.Card Data-->
@@ -43,7 +46,9 @@
                             </div>
                             <!--/.Card content-->
                         </div>
+                              </a>
                     </div>
+
                     {% endfor %}
                         <!--/.Card-->
                     <!--/First column-->
@@ -318,7 +323,16 @@
             <!--/Classic admin cards-->
         </div>
 
+      <script type="text/javascript">
+    $(document).ready(function(){
+        $("#state").click(function() {
 
+
+            window.location = $(this).find("a").attr("href");
+  return false;
+})
+    });
+    </script>
     <!--/Main layout-->
 {% endblock %}
 
